@@ -27,6 +27,6 @@ this makes a dynamic array for the people that you can add to said array, but to
 for this requirement we can make the code as such 
 
 function addPerson(string memory _name, uint256 _favNum) public {
-  listOfPeople.push(Person(_name, _favNum));
+  listOfPeople.push(Person(_favNum, _name));
 }
 
